@@ -1,6 +1,24 @@
 # Injector
 
-A stupidly simple DI implementation in Ruby. Usage is as follows:
+A stupidly simple DI implementation in Ruby.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'injector'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install injector
+
+## Usage
 
 ``` ruby
 class C
@@ -22,26 +40,6 @@ puts inj.c.foo
 ```
 
 Initialization is lazy so it can deal with out-of-order dependency declaration.
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'injector'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install injector
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
