@@ -1,4 +1,4 @@
-# Injector
+# [Injector](https://rubygems.org/gems/DInjector)
 
 A stupidly simple DI implementation in Ruby.
 
