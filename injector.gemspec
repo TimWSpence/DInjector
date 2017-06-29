@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'injector/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "injector"
+  spec.name          = "DInjector"
   spec.version       = Injector::VERSION
   spec.authors       = ["Tim Spence"]
   spec.email         = ["timothywspence@gmail.com"]
