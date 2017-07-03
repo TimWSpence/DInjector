@@ -13,4 +13,4 @@ deploy:
   gemspec: injector.gemspec
   on:
     tags: true
-    repo: TimWSpence/DInjector
+    all_branches: true
