@@ -7,7 +7,7 @@ A stupidly simple DI implementation in Ruby.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'injector'
+gem 'DInjector'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install injector
+    $ gem install DInjector
 
 ## Usage
 
