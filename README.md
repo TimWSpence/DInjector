@@ -1,6 +1,7 @@
-# [Injector](https://rubygems.org/gems/DInjector)
+[![Build Status](https://travis-ci.org/TimWSpence/DInjector.svg?branch=master)](https://travis-ci.org/TimWSpence/DInjector)
+# Injector
 
-A stupidly simple DI implementation in Ruby.
+A stupidly simple DI implementation in Ruby. Available as a [gem](https://rubygems.org/gems/DInjector)
 
 ## Installation
 
