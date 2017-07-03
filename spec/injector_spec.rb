@@ -1,4 +1,5 @@
 require "spec_helper"
+require 'injector'
 
 module InjectorSpec
 
@@ -48,6 +49,10 @@ module InjectorSpec
         :foo
       end
       expect(@inj.c).not_to equal(@inj.c)
+    end
+
+    it "throws not-registered error" do
+      expect{@inj.foo}.to raise_error(Injector::NotRegisteredError, "foo not registered")
     end
   end
 

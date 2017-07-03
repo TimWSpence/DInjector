@@ -15,6 +15,12 @@ module Injector
       end
     end
 
+    def method_missing(name, *args)
+      raise NotRegisteredError, "#{name} not registered"
+    end
+  end
+
+  class NotRegisteredError < StandardError
   end
 
 end
