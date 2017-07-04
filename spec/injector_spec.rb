@@ -1,5 +1,4 @@
 require "spec_helper"
-require 'injector'
 
 module InjectorSpec
 
@@ -11,14 +10,14 @@ module InjectorSpec
     end
   end
 
-  describe Injector do
+  describe Dinjector do
 
     before(:example) do
-      @inj = Injector::Injector.new()
+      @inj = Dinjector::Injector.new()
     end
 
     it "has a version number" do
-      expect(Injector::VERSION).not_to be nil
+      expect(Dinjector::VERSION).not_to be nil
     end
 
     it "handles out of order registration" do
@@ -52,7 +51,7 @@ module InjectorSpec
     end
 
     it "throws not-registered error" do
-      expect{@inj.foo}.to raise_error(Injector::NotRegisteredError, "foo not registered")
+      expect{@inj.foo}.to raise_error(Dinjector::NotRegisteredError, "foo not registered")
     end
   end
 

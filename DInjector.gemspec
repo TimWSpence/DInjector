@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'injector/version'
+require 'dinjector/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "DInjector"
-  spec.version       = Injector::VERSION
+  spec.version       = Dinjector::VERSION
   spec.authors       = ["Tim Spence"]
   spec.email         = ["timothywspence@gmail.com"]
 

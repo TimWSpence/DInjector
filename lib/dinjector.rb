@@ -1,6 +1,6 @@
-require "injector/version"
+require "dinjector/version"
 
-module Injector
+module Dinjector
 
   class Injector
 
