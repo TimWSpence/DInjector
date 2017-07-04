@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/TimWSpence/DInjector.svg?branch=master)](https://travis-ci.org/TimWSpence/DInjector)
 # Injector
 
-A stupidly simple DI implementation in Ruby. Available as a [gem](https://rubygems.org/gems/DInjector)
+A stupidly simple DI implementation in Ruby. Available as a [gem](https://rubygems.org/gems/DInjector).
 
 ## Installation
 
@@ -22,6 +22,8 @@ Or install it yourself as:
 ## Usage
 
 ``` ruby
+require 'dinjector'
+
 class C
     attr_reader :foo
 
@@ -30,7 +32,7 @@ class C
     end
 end
 
-inj = Injector.new()
+inj = Dinjector::Injector.new()
 inj.register :c do |inj|
     C.new(inj.foo)
 end
